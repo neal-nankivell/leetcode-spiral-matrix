@@ -6,7 +6,7 @@ class Test_TestSolution(unittest.TestCase):
     def setUp(self):
         self.sut = solution.Solution()
 
-    def test_foo(self):
+    def test_spiralOrder_3x3(self):
         input = [
             [1, 2, 3],
             [4, 5, 6],
